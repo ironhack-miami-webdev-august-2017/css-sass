@@ -1,0 +1,47 @@
+$company-color: #00D1AE;
+
+body {
+  width: 100%;
+}
+
+.wrapper {
+  border: solid $company-color 5px;
+  margin: 100px auto 0;
+  width:  40%;
+}
+
+.card-container {
+  background: $company-color;
+  height:     280px;
+  margin:     20px auto;
+  width:      90%;
+  overflow: auto;
+
+  img {
+    width: 50%;
+  }
+
+  p {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 46px;
+  }
+}
+
+.menu {
+  width: 50%;
+  box-sizing: border-box;
+  float: right;
+
+  li {
+    background-color: red;
+  }
+
+  a {
+    color: yellow;
+    text-decoration: none;
+  }
+}
