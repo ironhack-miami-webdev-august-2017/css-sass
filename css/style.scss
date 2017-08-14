@@ -1,4 +1,9 @@
-$company-color: #00D1AE;
+// imports the "_reset.scss" file
+@import 'reset';
+
+// imports the "_variables.scss" file
+@import 'variables';
+
 
 body {
   width: 100%;
@@ -7,13 +12,13 @@ body {
 .wrapper {
   border: solid $company-color 5px;
   margin: 100px auto 0;
-  width:  40%;
+  width:  $wrapper-width;
 }
 
 .card-container {
   background: $company-color;
   height:     280px;
-  margin:     20px auto;
+  margin:     $container-margin auto;
   width:      90%;
   overflow: auto;
 
